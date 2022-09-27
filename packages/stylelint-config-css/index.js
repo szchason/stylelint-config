@@ -119,5 +119,5 @@ module.exports = {
     'no-missing-end-of-source-newline': true,
     'no-empty-first-line': true,
     'no-extra-semicolons': true,
-  }
-}
+  },
+};

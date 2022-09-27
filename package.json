@@ -6,7 +6,9 @@
   "description": "stylelint's config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx only-allow pnpm",
+    "eslint": "eslint packages/**/*.js",
+    "lint-staged": "lint-staged",
     "lint:css": "pnpm --filter @szchason/stylelint-config-css stylelint"
   },
   "author": "szchason",
@@ -14,8 +16,18 @@
     "node": ">=16.13.1"
   },
   "license": "MIT",
+  "lint-staged": {
+    "*.{js}": "npm run eslint"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@szchason/eslint-config-base": "^0.0.1",
+    "eslint": "^8.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "only-allow": "^1.1.1",
     "stylelint": "^14.12.1"
   }
 }
