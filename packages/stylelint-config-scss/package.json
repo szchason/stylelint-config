@@ -1,6 +1,6 @@
 {
   "name": "@szchason/stylelint-config-scss",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "shareable config for stylelint",
   "main": "index.js",
   "scripts": {
