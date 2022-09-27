@@ -6,7 +6,8 @@
   "description": "stylelint's config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "pnpm --filter @szchason/stylelint-config-css stylelint"
   },
   "author": "szchason",
   "engines": {

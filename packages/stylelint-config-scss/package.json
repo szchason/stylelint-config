@@ -1,12 +1,20 @@
 {
   "name": "stylelint-config-scss",
   "version": "1.0.0",
-  "description": "stylelint's config",
+  "description": "shareable config for stylelint",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "stylelint-config-scss",
+    "scss"
+  ],
+  "author": "szchason",
+  "license": "MIT"
 }

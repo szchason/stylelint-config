@@ -1,12 +1,27 @@
 {
-  "name": "stylelint-config-css",
-  "version": "1.0.0",
-  "description": "stylelint's config",
+  "name": "@szchason/stylelint-config-css",
+  "version": "0.0.1",
+  "description": "shareable config for stylelint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "stylelint code/**/*.css --config index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "szchason",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szchason/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/szchason/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/szchason/stylelint-config/tree/main/packages/stylelint-config-css"
 }
