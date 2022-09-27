@@ -1,10 +1,11 @@
 {
-  "name": "stylelint-config-scss",
+  "name": "@szchason/stylelint-config-scss",
   "version": "1.0.0",
   "description": "shareable config for stylelint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "stylelint code/**/*.scss --config index.js"
   },
   "files": [
     "index.js"
@@ -16,5 +17,18 @@
     "scss"
   ],
   "author": "szchason",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@szchason/stylelint-config-css": "workspace:*",
+    "postcss-scss": "^4.0.5",
+    "stylelint-scss": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szchason/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/szchason/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/szchason/stylelint-config/tree/main/packages/stylelint-config-scss"
 }

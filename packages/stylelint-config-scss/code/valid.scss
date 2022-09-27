@@ -1,0 +1,37 @@
+@use "demo.scss";
+
+$x: 1;
+$a: 2;
+//@import "demo.scss";
+
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700
+);
+
+body {
+  font-size: 50px;
+}
+
+a {
+  width: 10px + $a;
+}
+
+div {
+  $bin: 300;
+  @if $x == 1 {
+    height: 100%;
+  }@else if $a == 2 {
+    width: 50px;
+  }
+  width: 10px; // No @else after, so should have a newline
+}
+
+.a {
+  width: 100px;
+}
+
+.b {
+  height: 100px;
+}

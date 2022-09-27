@@ -9,7 +9,8 @@
     "preinstall": "npx only-allow pnpm",
     "eslint": "eslint packages/**/*.js",
     "lint-staged": "lint-staged",
-    "lint:css": "pnpm --filter @szchason/stylelint-config-css stylelint"
+    "lint:css": "pnpm --filter @szchason/stylelint-config-css stylelint",
+    "lint:scss": "pnpm --filter @sz.chasen/stylelint-config-scss stylelint"
   },
   "author": "szchason",
   "engines": {
